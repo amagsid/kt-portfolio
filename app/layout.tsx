@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
+import CustomCursor from './components/cursor';
+import DynamicBgSphere from './components/DynamicBgSphere';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -21,6 +23,13 @@ export default function RootLayout({
       </head>
       <body className={inter.className}>
         {children}
+        {/* <div className='flex justify-center items-center'>
+          <div className=' relative bg-emerald-500 p-96  w-[70%] h-screen cursor-cont'>
+            {' '} */}
+        <DynamicBgSphere />
+        {/* </div> */}
+        {/* </div> */}
+
         <script type='module' src='./grain.js'></script>
       </body>
     </html>

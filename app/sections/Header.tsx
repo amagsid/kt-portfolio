@@ -1,25 +1,28 @@
 import React from 'react';
+import Image from 'next/image';
+import DynamicBgSphere from '../components/DynamicBgSphere';
 
 const Header = () => {
   return (
-    <div className='flex flex-row h-full w-full justify-center items-center'>
-      <div
-        id='grained'
-        className='bg-pink-300 h-4/5 w-4/5 flex justify-center items-center text-zinc-800  '
-      >
-        <h1 className=' text-9xl font-extrabold '>animated noise </h1>
-      </div>
-      {/* <div className=' flex flex-col'>
-        <div>
-          {' '}
-          <h1>typography</h1>
+    <>
+      <div className=' flex overflow-hidden flex-row h-full w-full justify-center items-center'>
+        <div
+          id='grained'
+          className=' h-screen w-full flex flex-col justify-center items-center text-zinc-800  '
+        >
+          <div>
+            {' '}
+            <h1 className='text-rose-300  h-[65px] w-full align-left leading-tight text-4xl sm:text-6xl font-normal my-auto mx-0 '>
+              Yo yo my dear stranger,
+            </h1>
+          </div>
+
+          <h1 className=' leading-[60%] text-rose-300  text-4xl sm:text-[13rem] font-extrabold overflow-visible '>
+            Karim <br /> youssef
+          </h1>
         </div>
-        <div> tagline</div>
       </div>
-      <div>
-        <h1> visuals</h1>
-      </div> */}
-    </div>
+    </>
   );
 };
 
