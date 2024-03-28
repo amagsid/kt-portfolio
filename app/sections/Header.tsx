@@ -5,10 +5,10 @@ import DynamicBgSphere from '../components/DynamicBgSphere';
 const Header = () => {
   return (
     <>
-      <div className=' flex overflow-hidden flex-row h-full w-full justify-center items-center'>
+      <div className=' flex flex-row  justify-center items-center'>
         <div
           id='grained'
-          className=' h-screen w-full flex flex-col justify-center items-center text-zinc-800  '
+          className='  h-screen w-full flex flex-col justify-center items-center text-zinc-800  '
         >
           <div>
             {' '}

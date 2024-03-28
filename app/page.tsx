@@ -7,8 +7,11 @@ export default function Home() {
   return (
     <main className='px-6 sm:px-24 md:px-48 snap-y snap-mandatory overflow-scroll h-screen bg-black  text-white '>
       <NavBar />
-      <div className=' snap-start h-screen w-screen bg-gradient-to-r bg-black  '>
-        <div className='mt-20 '>
+      <div
+        className=' snap-start h-screen w-screen bg-gradient-to-r bg-black  '
+        style={{ overflowX: 'hidden', overflowY: 'hidden' }}
+      >
+        <div className='mt-20  '>
           <Header />
         </div>
       </div>
