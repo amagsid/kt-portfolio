@@ -9,9 +9,9 @@ export default function Home() {
       <NavBar />
       <div
         className=' snap-start h-screen w-screen bg-gradient-to-r bg-black  '
-        style={{ overflowX: 'hidden', overflowY: 'hidden' }}
+        style={{ overflowY: 'hidden' }}
       >
-        <div className='mt-20  '>
+        <div className='mt-20 '>
           <Header />
         </div>
       </div>
