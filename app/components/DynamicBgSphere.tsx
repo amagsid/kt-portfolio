@@ -32,7 +32,7 @@ const DynamicBgSphere = () => {
   return (
     <div>
       <Image
-        className='transition-all ease-out delay-15'
+        className='transition-all ease-out delay-10'
         style={{
           position: 'absolute',
           opacity: '.75',
